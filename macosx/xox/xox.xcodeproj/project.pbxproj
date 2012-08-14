@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9415BF0D150ACBA500287209 /* DOM.h in Headers */ = {isa = PBXBuildFile; fileRef = 9415BF07150ACBA500287209 /* DOM.h */; };
+		9415BF0E150ACBA500287209 /* Handler.h in Headers */ = {isa = PBXBuildFile; fileRef = 9415BF08150ACBA500287209 /* Handler.h */; };
+		9415BF0F150ACBA500287209 /* XMLElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 9415BF09150ACBA500287209 /* XMLElement.h */; };
+		9415BF10150ACBA500287209 /* Xox.h in Headers */ = {isa = PBXBuildFile; fileRef = 9415BF0A150ACBA500287209 /* Xox.h */; };
+		9415BF11150ACBA500287209 /* XoxException.h in Headers */ = {isa = PBXBuildFile; fileRef = 9415BF0B150ACBA500287209 /* XoxException.h */; };
+		9415BF12150ACBA500287209 /* XoxParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 9415BF0C150ACBA500287209 /* XoxParser.h */; };
+		9415BF19150ACBB900287209 /* DOM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9415BF14150ACBB900287209 /* DOM.cpp */; };
+		9415BF1A150ACBB900287209 /* Handler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9415BF15150ACBB900287209 /* Handler.cpp */; };
+		9415BF1B150ACBB900287209 /* XMLElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9415BF16150ACBB900287209 /* XMLElement.cpp */; };
+		9415BF1C150ACBB900287209 /* Xox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9415BF17150ACBB900287209 /* Xox.cpp */; };
+		9415BF1D150ACBB900287209 /* XoxParser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9415BF18150ACBB900287209 /* XoxParser.cpp */; };
+		9415BF26150ACBF800287209 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9415BF25150ACBF800287209 /* Foundation.framework */; };
+		9415BF29150ACBF800287209 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9415BF28150ACBF800287209 /* main.cpp */; };
+		9415BF37150ACEB400287209 /* libxox.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9415BEFF150ACB8B00287209 /* libxox.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9415BF38150ACEEF00287209 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9415BEF6150ACB8B00287209 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9415BEFE150ACB8B00287209;
+			remoteInfo = xox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9415BF20150ACBF800287209 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9415BEFF150ACB8B00287209 /* libxox.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libxox.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9415BF07150ACBA500287209 /* DOM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DOM.h; path = ../../DOM.h; sourceTree = "<group>"; };
+		9415BF08150ACBA500287209 /* Handler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Handler.h; path = ../../Handler.h; sourceTree = "<group>"; };
+		9415BF09150ACBA500287209 /* XMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XMLElement.h; path = ../../XMLElement.h; sourceTree = "<group>"; };
+		9415BF0A150ACBA500287209 /* Xox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Xox.h; path = ../../Xox.h; sourceTree = "<group>"; };
+		9415BF0B150ACBA500287209 /* XoxException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XoxException.h; path = ../../XoxException.h; sourceTree = "<group>"; };
+		9415BF0C150ACBA500287209 /* XoxParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XoxParser.h; path = ../../XoxParser.h; sourceTree = "<group>"; };
+		9415BF14150ACBB900287209 /* DOM.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DOM.cpp; path = ../../DOM.cpp; sourceTree = "<group>"; };
+		9415BF15150ACBB900287209 /* Handler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Handler.cpp; path = ../../Handler.cpp; sourceTree = "<group>"; };
+		9415BF16150ACBB900287209 /* XMLElement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = XMLElement.cpp; path = ../../XMLElement.cpp; sourceTree = "<group>"; };
+		9415BF17150ACBB900287209 /* Xox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Xox.cpp; path = ../../Xox.cpp; sourceTree = "<group>"; };
+		9415BF18150ACBB900287209 /* XoxParser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = XoxParser.cpp; path = ../../XoxParser.cpp; sourceTree = "<group>"; };
+		9415BF22150ACBF800287209 /* xox-test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "xox-test"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9415BF25150ACBF800287209 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9415BF28150ACBF800287209 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9415BF2B150ACBF800287209 /* xox-test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "xox-test-Prefix.pch"; sourceTree = "<group>"; };
+		9415BF3A150ACF7B00287209 /* testInput.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = testInput.xml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9415BEFC150ACB8B00287209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9415BF1F150ACBF800287209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9415BF26150ACBF800287209 /* Foundation.framework in Frameworks */,
+				9415BF37150ACEB400287209 /* libxox.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9415BEF4150ACB8B00287209 = {
+			isa = PBXGroup;
+			children = (
+				9415BF06150ACB9400287209 /* Headers */,
+				9415BF13150ACBAE00287209 /* Source */,
+				9415BF27150ACBF800287209 /* xox-test */,
+				9415BF24150ACBF800287209 /* Frameworks */,
+				9415BF00150ACB8B00287209 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9415BF00150ACB8B00287209 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9415BEFF150ACB8B00287209 /* libxox.a */,
+				9415BF22150ACBF800287209 /* xox-test */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9415BF06150ACB9400287209 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				9415BF07150ACBA500287209 /* DOM.h */,
+				9415BF08150ACBA500287209 /* Handler.h */,
+				9415BF09150ACBA500287209 /* XMLElement.h */,
+				9415BF0A150ACBA500287209 /* Xox.h */,
+				9415BF0B150ACBA500287209 /* XoxException.h */,
+				9415BF0C150ACBA500287209 /* XoxParser.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		9415BF13150ACBAE00287209 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9415BF14150ACBB900287209 /* DOM.cpp */,
+				9415BF15150ACBB900287209 /* Handler.cpp */,
+				9415BF16150ACBB900287209 /* XMLElement.cpp */,
+				9415BF17150ACBB900287209 /* Xox.cpp */,
+				9415BF18150ACBB900287209 /* XoxParser.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		9415BF24150ACBF800287209 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9415BF25150ACBF800287209 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9415BF27150ACBF800287209 /* xox-test */ = {
+			isa = PBXGroup;
+			children = (
+				9415BF28150ACBF800287209 /* main.cpp */,
+				9415BF2A150ACBF800287209 /* Supporting Files */,
+				9415BF3A150ACF7B00287209 /* testInput.xml */,
+			);
+			path = "xox-test";
+			sourceTree = "<group>";
+		};
+		9415BF2A150ACBF800287209 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9415BF2B150ACBF800287209 /* xox-test-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9415BEFD150ACB8B00287209 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9415BF0D150ACBA500287209 /* DOM.h in Headers */,
+				9415BF0E150ACBA500287209 /* Handler.h in Headers */,
+				9415BF0F150ACBA500287209 /* XMLElement.h in Headers */,
+				9415BF10150ACBA500287209 /* Xox.h in Headers */,
+				9415BF11150ACBA500287209 /* XoxException.h in Headers */,
+				9415BF12150ACBA500287209 /* XoxParser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9415BEFE150ACB8B00287209 /* xox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9415BF03150ACB8B00287209 /* Build configuration list for PBXNativeTarget "xox" */;
+			buildPhases = (
+				9415BEFB150ACB8B00287209 /* Sources */,
+				9415BEFC150ACB8B00287209 /* Frameworks */,
+				9415BEFD150ACB8B00287209 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xox;
+			productName = xox;
+			productReference = 9415BEFF150ACB8B00287209 /* libxox.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9415BF21150ACBF800287209 /* xox-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9415BF2E150ACBF800287209 /* Build configuration list for PBXNativeTarget "xox-test" */;
+			buildPhases = (
+				9415BF1E150ACBF800287209 /* Sources */,
+				9415BF1F150ACBF800287209 /* Frameworks */,
+				9415BF20150ACBF800287209 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9415BF39150ACEEF00287209 /* PBXTargetDependency */,
+			);
+			name = "xox-test";
+			productName = "xox-test";
+			productReference = 9415BF22150ACBF800287209 /* xox-test */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9415BEF6150ACB8B00287209 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "ChristyBrantCo, LLC.";
+			};
+			buildConfigurationList = 9415BEF9150ACB8B00287209 /* Build configuration list for PBXProject "xox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9415BEF4150ACB8B00287209;
+			productRefGroup = 9415BF00150ACB8B00287209 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9415BEFE150ACB8B00287209 /* xox */,
+				9415BF21150ACBF800287209 /* xox-test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9415BEFB150ACB8B00287209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9415BF19150ACBB900287209 /* DOM.cpp in Sources */,
+				9415BF1A150ACBB900287209 /* Handler.cpp in Sources */,
+				9415BF1B150ACBB900287209 /* XMLElement.cpp in Sources */,
+				9415BF1C150ACBB900287209 /* Xox.cpp in Sources */,
+				9415BF1D150ACBB900287209 /* XoxParser.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9415BF1E150ACBF800287209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9415BF29150ACBF800287209 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9415BF39150ACEEF00287209 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9415BEFE150ACB8B00287209 /* xox */;
+			targetProxy = 9415BF38150ACEEF00287209 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9415BF01150ACB8B00287209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9415BF02150ACB8B00287209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9415BF04150ACB8B00287209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9415BF05150ACB8B00287209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9415BF2F150ACBF800287209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "xox-test/xox-test-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9415BF30150ACBF800287209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "xox-test/xox-test-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9415BEF9150ACB8B00287209 /* Build configuration list for PBXProject "xox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9415BF01150ACB8B00287209 /* Debug */,
+				9415BF02150ACB8B00287209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9415BF03150ACB8B00287209 /* Build configuration list for PBXNativeTarget "xox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9415BF04150ACB8B00287209 /* Debug */,
+				9415BF05150ACB8B00287209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9415BF2E150ACBF800287209 /* Build configuration list for PBXNativeTarget "xox-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9415BF2F150ACBF800287209 /* Debug */,
+				9415BF30150ACBF800287209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9415BEF6150ACB8B00287209 /* Project object */;
+}

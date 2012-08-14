@@ -1,0 +1,4 @@
+<test>
+    <item attribute="1a" second_attribute="1b"/>
+    <item attribute="2a" second_attribute="2b"/>
+</test>
