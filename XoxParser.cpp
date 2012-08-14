@@ -407,9 +407,7 @@ int XoxParser::VerifyAttributesIntegrity(const char *aLine)
     for (i=0;i<len;++i) {
 	switch(aLine[i]) {
 	    case '=':
-        if ( 0 == (numQuotes % 2) ) {
-            ++numEquals;
-        }
+		++numEquals;
 		break;
 	    case '\\':
 		fEscaped = !fEscaped;
