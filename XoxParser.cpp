@@ -73,11 +73,11 @@ DOM * XoxParser::parseFile(const char *fileName)
 DOM * XoxParser::parse(const char *contents)
 {
     char * myLine;
-    int s, rs, f, len;
+    int s, rs, f;
     int rc = 0;
     int mode; // 0 = nothing special, 1 = PCData, 2 = inside attribute
     bool fEscaped = false;
-    len = strlen(contents);
+    size_t len = strlen(contents);
     s = 0;
 
     bool fStart, fFin;
@@ -196,7 +196,7 @@ DONE:
 int XoxParser::parse3(const char *aLine)
 {
  // determine the kind of line
- int len = strlen(aLine);
+ size_t len = strlen(aLine);
  if (aLine[0] == '<') {
     if (aLine[len-1] != '>') {
 	return -1;
@@ -402,7 +402,7 @@ int XoxParser::VerifyAttributesIntegrity(const char *aLine)
     int i;
     int numEquals=0;
     int numQuotes = 0;
-    int len = strlen(aLine);
+    size_t len = strlen(aLine);
     bool fEscaped = false;
     for (i=0;i<len;++i) {
 	switch(aLine[i]) {
@@ -443,7 +443,7 @@ int XoxParser::VerifyAttributesIntegrity(const char *aLine)
 
 int XoxParser::ParseForTagAttributes(const char *aLine)
 {
-    int len = strlen(aLine);
+    size_t len = strlen(aLine);
     int i, numAtts=0;
     int s=1;
     int f=1;
